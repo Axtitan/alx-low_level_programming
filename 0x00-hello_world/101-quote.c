@@ -3,7 +3,7 @@
 *main - print a string to standard error
 *Description: using the main function\
 *This program prints to stderr
-*return 1
+*return 0
 */
 int main(void)
 {
