@@ -4,6 +4,7 @@
 *@n: parameter
 *Return : nothing
 */
+
 void reset_to_int(int *n)
 {
 *n = 98;
