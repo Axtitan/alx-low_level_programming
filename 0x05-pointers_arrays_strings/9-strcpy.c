@@ -14,7 +14,7 @@ int inc = 0;
 
 while (*(src + inc) != '\0')
 {
-*(dest + inc) != *(src + inc);
+*(dest + inc) = *(src + inc);
 inc++;
 }
 *(dest + inc) = '\0';
