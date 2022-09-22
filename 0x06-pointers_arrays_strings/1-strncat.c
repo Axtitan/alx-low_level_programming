@@ -2,14 +2,15 @@
 #include <string.h>
 
 /**
- * _strcat - Conactinates two strings
+ * _strncat - Conactinates two strings
  * @dest: character value.
  * @src: character value
+ * @n: size of memory
  * Return: returns pointer of @dest
  */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
-strcat(dest, src);
+strncat(dest, src, n);
 return (dest);
 }
